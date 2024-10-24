@@ -1,0 +1,43 @@
+{
+    "name": "naive-ui-vite-example",
+    "version": "1.4.0",
+    "productName": "naive-ui-vite-example",
+    "description": "naive-ui-vite-example",
+    "author": "goldtagworks",
+    "keywords": [],
+    "main": "",
+    "type": "module",
+    "private": true,
+    "scripts": {
+        "lint": "eslint --ext .js,.ts,.vue,.cjs,.mjs ./",
+        "format": "prettier --write \"**/*.{js,ts,cjs,mjs,vue,scss,html,md,json}\" --ignore-path .gitignore",
+        "dev": "vite",
+        "build": "vue-tsc --noEmit && vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "pinia": "^2.2.4",
+        "vue": "^3.5.12",
+        "vue-router": "^4.4.5"
+    },
+    "devDependencies": {
+        "@css-render/vue3-ssr": "^0.15.14",
+        "@types/node": "^22.7.9",
+        "@typescript-eslint/eslint-plugin": "^8.11.0",
+        "@typescript-eslint/parser": "^8.11.0",
+        "@vitejs/plugin-vue": "^5.1.4",
+        "@vue/compiler-sfc": "^3.5.12",
+        "eslint": "8.57.1",
+        "eslint-config-prettier": "^9.1.0",
+        "eslint-plugin-import": "^2.31.0",
+        "eslint-plugin-jsdoc": "^50.4.3",
+        "eslint-plugin-vue": "^9.29.1",
+        "naive-ui": "^2.40.1",
+        "prettier": "^3.3.3",
+        "typescript": "5.5.4",
+        "vfonts": "^0.0.3",
+        "vite": "^5.4.10",
+        "vite-tsconfig-paths": "^5.0.1",
+        "vue-tsc": "^2.1.6"
+    }
+}

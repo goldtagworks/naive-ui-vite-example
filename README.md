@@ -1,2 +1,5 @@
 # naive-ui-vite-example
- naive-ui example
+
+## vue3 / vue-router / pinia
+
+## vite / eslint / prettier / typescript
